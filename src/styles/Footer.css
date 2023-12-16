@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--grey-bg-darker);
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0px;
+  }
+  
+  #footer-top span {
+    width: 40px;
+  }
+  
+  #footer-top {
+    padding-bottom: 10px;
+  }
+  
+  
+  /* source for justify-content: https://www.w3schools.com/cssref/css3_pr_justify-content.php */
+  .footer div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: var(--dark-white);
+  }
+  
+  .footer a:hover {
+    color: var(--light-white);
+  }
+  
+  .attributions {
+    font-size: 16px;
+  }
+  
+  
+  

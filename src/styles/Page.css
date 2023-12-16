@@ -1,0 +1,57 @@
+/* source for colors: https://www.w3schools.com/colors/colors_picker.asp */
+:root {
+    --light-white: hsl(0, 0%, 95%);
+    --dark-white: hsl(0, 0%, 88%);
+    --grey-bg: hsl(0, 0%, 45%, 30%);
+    --grey-bg-darker: hsl(0, 0%, 45%, 80%);
+    --lighter-grey: hsl(0, 0%, 50%, 30%);
+    --light-green-bg: #e9f2e9;
+    --light-black: #1a1a1a;
+    --my-green: #4e974e;
+    --light-blue: #e6f2ff;
+    --my-blue: #80bdff;
+  }
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--light-black);
+  background-color: var(--light-green-bg);
+}
+
+
+#first-img {
+    /* source for parallax scrolling: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+    background-image: url('../images/tree.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* ------------------------------------- */
+  }
+  
+  #second-img {
+    /* source for parallax scrolling: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax */
+    background-image: url('../images/ucsd.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* ----------------------------------- */
+  }
+
+  /* source for flex: https://www.w3schools.com/csS/css3_flexbox_container.asp */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section {
+    min-height:600px;
+}

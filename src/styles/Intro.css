@@ -1,0 +1,24 @@
+#intro {
+    background-color: var(--light-green-bg);
+    padding-top: 10px;
+    min-width: 500px;
+    justify-content: center;
+}
+
+#intro-text {
+    max-width: 500px;
+    margin: 0px 40px;
+    height: 380px;
+    font-size: 20px;
+}
+
+#icon-1 {
+    height: 300px;
+    margin: 0px 40px;
+    /* source for align-self: https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties */
+    align-self: end;
+}
+
+#icon-1 img {
+    height: 300px;
+}

@@ -1,0 +1,86 @@
+#about-box {
+    min-height: 320px;
+    width: 800px;
+    background-color: var(--grey-bg-darker);
+    align-self: center;
+    border-radius: 5%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    align-content: center;
+    padding-bottom: 40px;
+}
+
+
+.about-card {
+    margin: 0px 30px;
+    margin-bottom: 40px;
+}
+
+.card-image {
+    padding-top: 16px;
+    height: 128px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: scale 0.5s;
+}
+
+.card-image:hover {
+    scale: 1.05;
+}
+
+.card-image div {
+    pointer-events: none;
+    width: 180px;
+}
+
+
+#hard-worker {
+    position: absolute;
+    bottom: -30px;
+    right: 25px;
+    width: 100px;
+}
+
+#programmer {
+    position: absolute;
+    bottom: -18px;
+    right: 75px;
+    width: 100px;
+}
+
+#mother {
+    position: absolute;
+    width: 50px;
+    bottom: -40px;
+    right: 42px;
+
+}
+
+
+/* source for filters: https://www.w3schools.com/cssref/css3_pr_filter.php */
+.normal-size {
+    height: 128px;
+    transition: filter 1s, height 1s;
+}
+
+.larger-size {
+    filter: brightness(10%);
+    height: 186px;
+    transition: filter 1s, height 1s;
+}
+
+.hidden-txt {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.shown-txt {
+    opacity: 1;
+    transition: opacity 0.6s 0.4s;
+}
+
+
+
