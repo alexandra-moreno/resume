@@ -4,7 +4,7 @@
     --dark-white: hsl(0, 0%, 88%);
     --grey-bg: hsl(0, 0%, 45%, 30%);
     --grey-bg-darker: hsl(0, 0%, 45%, 80%);
-    --lighter-grey: hsl(0, 0%, 50%, 30%);
+    --lighter-grey: hsl(0, 0%, 50%, 60%);
     --light-green-bg: #e9f2e9;
     --light-black: #1a1a1a;
     --my-green: #4e974e;
@@ -56,4 +56,10 @@ body {
 
 .section {
     min-height:600px;
+}
+
+.text-section {
+    max-width: 500px;
+    margin: 0px 40px;
+    font-size: 20px;
 }

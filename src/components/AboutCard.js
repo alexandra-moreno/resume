@@ -21,8 +21,8 @@ function AboutCard(props) {
         <div className="about-card">
             <p>{props.name}</p>
             <div className="card-image" onClick={toggleSize}>
-                <img className={size} src={props.icon} alt={props.alt} />
-                <div className={hidden} id={props.alt}>{props.text}</div>
+                <img className={size} src={props.icon} alt={props.id} />
+                <div className={hidden} id={props.id}>{props.text}</div>
             </div>
         </div>
     );

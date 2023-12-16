@@ -1,0 +1,13 @@
+#experience {
+    padding-top: 20px;
+}
+
+#experience-text {
+    color: var(--dark-white);
+    text-align: center;
+}
+
+#experience img {
+    height: 380px;;
+}
+
