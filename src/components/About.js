@@ -8,7 +8,7 @@ import motherIcon from '../icons/newborn.png';
 
 import AboutCard from './AboutCard.js';
 
-const languageList = () => {
+function LanguageList() {
     return (
         <>
             <p>Java</p>
@@ -25,7 +25,7 @@ function About() {
         <div className="flex-container section" id="about">
             <div className="flex-container" id="about-box">
                 <AboutCard name="Hard-Worker" icon={hardWorkIcon} alt="hard-worker" text="Graduated from UCSD in 2 years with a major in Cognitive & Behavioral Neuroscience"/>
-                <AboutCard name="Aspiring Programmer" icon={computer} alt="programmer" text={<><p>Java</p><p>C/C#</p><p>MySQL</p><p>JavaScript</p></>}/>
+                <AboutCard name="Aspiring Programmer" icon={computer} alt="programmer" text={<LanguageList />}/>
                 <AboutCard name="Loving Mother" icon={motherIcon} alt="mother" text="Mother to two amazing kids; the best parts of my life"/>
             </div>
         </div>

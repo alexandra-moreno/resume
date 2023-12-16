@@ -13,12 +13,75 @@
 }
 
 #icon-1 {
+    position: relative;
     height: 300px;
     margin: 0px 40px;
     /* source for align-self: https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties */
     align-self: end;
+    /* source for no-select: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting?noredirect=1&lq=1 */
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* ----------------------- */
 }
+
 
 #icon-1 img {
     height: 300px;
+}
+
+#eyes {
+   pointer-events: none; 
+}
+
+.eye {
+    background-color: var(--icon-eyes);
+    height: 14px;
+    width: 20px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    position: absolute;
+    bottom: 188px;
+
+}
+
+#right-eye {
+    right: 180px;
+}
+
+#left-eye {
+    right: 220px;
+}
+
+.eye-close {
+    background-color: var(--icon-skin);
+    height: 10px;
+    width: 12px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    position: absolute;
+    bottom: 188px;
+}
+
+#right-eye-close {    
+    right: 184px;
+}
+
+#left-eye-close {
+    right: 224px;
+}
+
+#mouth {
+    background-color: pink;
+    height: 14px;
+    width: 16px;
+    position: absolute;
+    bottom: 156px;
+    right: 202px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    rotate: calc(8deg);
 }
