@@ -25,7 +25,7 @@
 .card-image {
     padding-top: 16px;
     height: 128px;
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     cursor: pointer;
     transition: scale 0.5s;
@@ -43,26 +43,25 @@
 
 #hard-worker {
     position: absolute;
-    bottom: -18px;
-    right: 26px;
+    bottom: -22px;
+    right: 30px;
     width: 130px;
-    font-size: 12px;
 }
 
 
 #programmer {
     position: absolute;
-    bottom: -18px;
+    bottom: 14px;
     right: 75px;
     width: 100px;
 }
 
 #mother {
     position: absolute;
-    width: 80px;
-    bottom: -40px;
-    right: 45px;
-    font-size: 12px;
+    width: 100px;
+    bottom: -38px;
+    right: 36px;
+    font-size: 16px;
 
 }
 

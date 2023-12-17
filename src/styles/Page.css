@@ -7,12 +7,18 @@
     --grey-bg-darker2: hsl(0, 0%, 30%, 90%);
     --lighter-grey: hsl(0, 0%, 50%, 60%);
     --light-green-bg: #e9f2e9;
+    --light-green-bg2: #cfe3cf;
     --light-black: #1a1a1a;
     --my-green: #4e974e;
     --light-blue: #e6f2ff;
     --my-blue: #80bdff;
     --icon-eyes: #EDC7A4;
     --icon-skin: #FFEAD7;
+  }
+
+  /* source for scroll-behavior: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 */
+  html {
+    scroll-behavior: smooth;
   }
 
 

@@ -7,6 +7,7 @@ import Intro from './components/Intro.js';
 import About from './components/About.js';
 import Experience from './components/Experience.js';
 import Education from './components/Education.js';
+import Links from './components/Links.js';
 
 const Page = () => {
     return (
@@ -19,8 +20,9 @@ const Page = () => {
             </div>
             <div id="second-img">
                 <Education />
-                <Footer />
             </div>
+            <Links />
+            <Footer />
         </div>
     );
 }

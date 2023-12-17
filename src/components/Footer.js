@@ -6,7 +6,7 @@ function Footer() {
         <div className="flex-container footer">
             <div id="footer-top">
                 <div>Allie Moreno's Resume</div>
-                <div><a href="/">Back to Top</a></div>
+                <div><a href="#top">Back to Top</a></div>
             </div>
             <div className="flex-container" id="footer-bottom">
                 <div className="attributions"><a href="https://www.flaticon.com/free-icons/student" title="student icons">Student icons created by Freepik - Flaticon</a></div>
