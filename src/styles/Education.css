@@ -1,0 +1,22 @@
+#education {
+    background-color: var(--grey-bg);
+    min-height: 600px;
+}
+
+#education-header {
+    color: var(--dark-white);
+    font-size: 40px;
+    margin-top: 20px;
+    height: 200px;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.education-card {
+    height: 200px;
+    width: 200px;
+    background-color: var(--my-green);
+    border-radius: 100%;
+    margin: 50px 100px;
+}

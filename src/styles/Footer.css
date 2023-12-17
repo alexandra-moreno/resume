@@ -5,20 +5,22 @@
     padding: 8px 0px;
   }
   
-  #footer-top span {
+  #space {
     width: 40px;
+    background-color: red;
   }
   
   #footer-top {
     padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
   }
   
   
   /* source for justify-content: https://www.w3schools.com/cssref/css3_pr_justify-content.php */
-  .footer div {
-    width: 100%;
+  .footer-bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   
   .footer a {
@@ -30,8 +32,14 @@
     color: var(--light-white);
   }
   
+  #footer-bottom {
+    justify-content: center;
+  }
+
   .attributions {
-    font-size: 16px;
+    font-size: 14px;
+    min-width: 400px;
+    text-align: center;
   }
   
   

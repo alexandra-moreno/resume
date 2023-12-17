@@ -1,8 +1,8 @@
 /* source for colors: https://www.w3schools.com/colors/colors_picker.asp */
 :root {
-    --light-white: hsl(0, 0%, 95%);
-    --dark-white: hsl(0, 0%, 88%);
-    --grey-bg: hsl(0, 0%, 45%, 30%);
+    --light-white: hsl(0, 0%, 98%);
+    --dark-white: hsl(0, 0%, 94%);
+    --grey-bg: hsl(0, 0%, 45%, 50%);
     --grey-bg-darker: hsl(0, 0%, 45%, 80%);
     --grey-bg-darker2: hsl(0, 0%, 30%, 90%);
     --lighter-grey: hsl(0, 0%, 50%, 60%);
@@ -25,6 +25,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--light-black);
   background-color: var(--light-green-bg);
+  cursor: default; /* source for cursor: https://www.w3schools.com/cssref/playit.php?filename=playcss_cursor&preval=default */
 }
 
 

@@ -1,3 +1,7 @@
+#about {
+    background-color: var(--grey-bg);
+}
+
 #about-box {
     min-height: 320px;
     width: 800px;
@@ -39,9 +43,9 @@
 
 #hard-worker {
     position: absolute;
-    bottom: -30px;
-    right: 30px;
-    width: 100px;
+    bottom: -18px;
+    right: 26px;
+    width: 130px;
     font-size: 12px;
 }
 
@@ -55,9 +59,9 @@
 
 #mother {
     position: absolute;
-    width: 50px;
+    width: 80px;
     bottom: -40px;
-    right: 40px;
+    right: 45px;
     font-size: 12px;
 
 }

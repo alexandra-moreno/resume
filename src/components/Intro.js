@@ -35,7 +35,7 @@ function Intro() {
         <div className="flex-container" id="intro">
             <div className="text-section" id="intro-text">
                 <h1>Nice to meet you!</h1>
-                <text>My name is Allie Moreno. I am an online student at Georgia Tech, studying to earn a Masters in Computer Science. I may not have begun my educational path in CS, but I have worked hard to dive deep into my CS studies. I am ready to break into a career in Software Development! Take a look around my page to learn more about me.</text>
+                <text>My name is Allie Moreno. I am an online student at Georgia Tech, studying to earn a Masters in Computer Science. I may not have begun my educational path in CS, but I have worked hard to dive deep into my CS studies. I started by earning a Masters of Computer and Information Technology from the University of Pennsylvania, and now I am continuing with my second degree to strengthen my skills. I am ready to break into a career in Software Development! Take a look around my page to learn more about me.</text>
             </div>
             <div id="icon-1">
                 <img onMouseDown={closeEyes} onMouseUp={openEyes} src={studentImage} alt="student" />

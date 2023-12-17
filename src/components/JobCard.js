@@ -18,7 +18,7 @@ function JobCard(props) {
     }
 
     return (
-        <div className="job-card" id={props.id} onClick={handleClick}>
+        <div className="job-card" onClick={handleClick}>
             <div className="job-card-header">
                 <h2>{props.title}</h2>
                 <h3>{props.company}</h3>
@@ -26,7 +26,7 @@ function JobCard(props) {
             <div className={"job-card-img " + brightness}>
                 <img src={props.icon} alt={props.id} />
             </div>
-            <div className={"job-description " + shown}>hi there how are you</div>
+            <div id={props.id} className={"job-description " + shown}>{props.text}</div>
 
         </div>
     );

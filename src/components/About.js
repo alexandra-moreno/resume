@@ -24,7 +24,7 @@ function About() {
     return (
         <div className="flex-container section" id="about">
             <div className="flex-container" id="about-box">
-                <AboutCard name="Hard-Worker" icon={hardWorkIcon} id="hard-worker" text="Graduated from UCSD in 2 years with a major in Cognitive & Behavioral Neuroscience"/>
+                <AboutCard name="Hard-Worker" icon={hardWorkIcon} id="hard-worker" text="Graduated from UCSD in two years with a major in Cognitive & Behavioral Neuroscience"/>
                 <AboutCard name="Aspiring Programmer" icon={computer} id="programmer" text={<LanguageList />}/>
                 <AboutCard name="Loving Mother" icon={motherIcon} id="mother" text="Mother to two amazing kids; the best parts of my life"/>
             </div>
