@@ -40,9 +40,11 @@
 #hard-worker {
     position: absolute;
     bottom: -30px;
-    right: 25px;
+    right: 30px;
     width: 100px;
+    font-size: 12px;
 }
+
 
 #programmer {
     position: absolute;
@@ -55,7 +57,8 @@
     position: absolute;
     width: 50px;
     bottom: -40px;
-    right: 42px;
+    right: 40px;
+    font-size: 12px;
 
 }
 

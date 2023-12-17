@@ -9,11 +9,11 @@ import JobCard from './JobCard.js';
 function Experience() {
     return (
         <div className="flex-container section" id="experience">
-            <div className="text-section" id="experience-text">
+            <div className="flex-container text-section" id="experience-text">
                 <h1>Work Experience</h1>
-                <img src={worker} alt="work" />
+                <img src={worker} alt="work" id="worker"/>
             </div>
-            <div>
+            <div className="flex-container" id="job-cards">
                 <JobCard id="ta" title="Online TA" company="University of Pennsylvania" text="1231241251421412" icon={taWorker}/>
                 <JobCard id="tester" title="Software Tester" company="Efficient Business Systems" text="124eq94u192049121" icon={testerWorker} />              
             </div>
