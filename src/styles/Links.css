@@ -1,4 +1,39 @@
 #links {
     min-height: 500px;
     background-color: var(--light-green-bg);
+    font-size: 20px;
+}
+
+#links-header {
+    width: 100%;
+    text-align: center;
+}
+
+#links-img {
+    width: 50%;
+}
+
+#links-img img {
+    height: 300px;
+}
+
+#links-text {
+    width: 50%;
+}
+
+.profile-link {
+    background-color: var(--grey-bg);
+    padding: 10px 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.profile-link:hover {
+    background-color: var(--lighter-grey);
+}
+
+#links-text a {
+    color: var(--light-white);
+    text-decoration: none;
 }

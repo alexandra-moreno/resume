@@ -17,6 +17,7 @@ function Footer() {
                 <div className="attributions"><a href="https://www.flaticon.com/free-icons/virtual-event" title="virtual event icons">Virtual event icons created by Freepik - Flaticon</a></div>
                 <div className="attributions"><a href="https://www.flaticon.com/free-icons/school" title="school icons">School icons created by Freepik - Flaticon</a></div>
                 <div className="attributions"><a href="https://www.flaticon.com/free-icons/checklist" title="checklist icons">Checklist icons created by Freepik - Flaticon</a></div>
+                <div className="attributions"><a href="https://www.flaticon.com/free-icons/web-link" title="web-link icons">Web-link icons created by Freepik - Flaticon</a></div>
             </div>
         </div>
 
