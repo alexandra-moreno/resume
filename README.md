@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Resume Project with Create-React-App:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Hi! My name is Allie Moreno. I am working on my personal webpage. I hope to deploy it soon! I've been using Create-React-App as a template for my project.
+The below information was included with the Create-React-App template:
+
+
+
+## Create-React-App Readme:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
