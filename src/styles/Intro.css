@@ -4,6 +4,7 @@
     min-width: 500px;
     justify-content: center;
     min-height: 500px;
+    background-color: red;
 }
 
 #intro-text {
