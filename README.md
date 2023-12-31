@@ -2,6 +2,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Hi! My name is Allie Moreno. I am working on my personal webpage. I hope to deploy it soon! I've been using Create-React-App as a template for my project.
+
+
+## Sources Used During Development:
+
+For deployment:
+https://github.com/gitname/react-gh-pages
+
+
 The below information was included with the Create-React-App template:
 
 
