@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.b874498b.css",
+    "main.js": "/resume/static/js/main.f73b9c91.js",
+    "static/media/tree.JPG": "/resume/static/media/tree.e8a7fec2b7536b07ab9a.JPG",
+    "static/media/ucsd.JPG": "/resume/static/media/ucsd.78bbae8a3728c08b7d8f.JPG",
+    "static/media/student_no_eyes.png": "/resume/static/media/student_no_eyes.fd3363500555fa8de35e.png",
+    "static/media/newborn.png": "/resume/static/media/newborn.9616423c45bad384e07c.png",
+    "static/media/checklist.png": "/resume/static/media/checklist.4cbed138972ee470cf52.png",
+    "static/media/student.png": "/resume/static/media/student.ccfad5a5231d541ed61c.png",
+    "static/media/video-call.png": "/resume/static/media/video-call.879b8b1c25cb5f2a748a.png",
+    "static/media/hyperlink.png": "/resume/static/media/hyperlink.7c6979cd00c61dab65c6.png",
+    "static/media/college.png": "/resume/static/media/college.b340a3070f67e84192f1.png",
+    "static/media/computer.png": "/resume/static/media/computer.f4401467a941a6c3bd92.png",
+    "index.html": "/resume/index.html",
+    "main.b874498b.css.map": "/resume/static/css/main.b874498b.css.map",
+    "main.f73b9c91.js.map": "/resume/static/js/main.f73b9c91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b874498b.css",
+    "static/js/main.f73b9c91.js"
+  ]
+}
