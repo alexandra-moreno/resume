@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 
 function AboutCard(props) {
-    // usetState source: https://www.w3schools.com/react/react_usestate.asp
+    // useState source: https://www.w3schools.com/react/react_usestate.asp
     const [hidden, setHidden] = useState("hidden-txt");
     const [size, setSize] = useState("normal-size");
 

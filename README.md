@@ -10,9 +10,74 @@ For deployment:
 https://github.com/gitname/react-gh-pages
 
 
+### React Sources
+
+React:
+https://www.w3schools.com/react/react_router.asp
+https://www.w3schools.com/react/react_props.asp
+https://www.geeksforgeeks.org/changing-css-styling-with-react-onclick-event/
+
+
+onMouseEnter:
+https://upmostly.com/tutorials/react-onhover-event-handling-with-examples
+
+Importing images:
+https://stackoverflow.com/questions/34582405/react-wont-load-local-images
+
+useState:
+https://www.w3schools.com/react/react_usestate.asp
+
+navbar:
+https://www.w3schools.com/howto/howto_js_topnav.asp
+
+### CSS Sources
+
+color-picker:
+https://www.w3schools.com/colors/colors_picker.asp
+
+filters:
+https://www.w3schools.com/cssref/css3_pr_filter.php
+
+triangles:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-down
+
+justify-content:
+https://www.w3schools.com/cssref/css3_pr_justify-content.php
+
+in-line block:
+https://stackoverflow.com/questions/14604541/padding-top-not-working
+
+align-self:
+https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties 
+
+no-select: 
+https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting?noredirect=1&lq=1
+
+scroll-behavior:
+https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+
+cursor:
+https://www.w3schools.com/cssref/playit.php?filename=playcss_cursor&preval=default
+
+parallax-scrolling effect:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax
+
+flex:
+https://www.w3schools.com/csS/css3_flexbox_container.asp
+
+transitions:
+https://www.w3schools.com/css/css3_transitions.asp
+
+fade-in:
+https://blog.hubspot.com/website/css-fade-in
+
+background:
+https://www.w3schools.com/css/css_background_repeat.asp
+https://stackoverflow.com/questions/585945/how-to-align-content-of-a-div-to-the-bottom
+
+
+
 The below information was included with the Create-React-App template:
-
-
 
 ## Create-React-App Readme:
 
